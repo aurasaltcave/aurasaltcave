@@ -136,7 +136,7 @@ jQuery(document).ready(function($) {
       " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 	};
 	// siteSliderRange();
-
+	
 
 	var siteMagnificPopup = function() {
 		$('.image-popup').magnificPopup({
