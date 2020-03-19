@@ -31,6 +31,10 @@ a {
   }
 }
 
+.modal {
+  z-index: 1000000000; 
+}
+
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Playfair Display"; }
@@ -227,7 +231,7 @@ h1, h2, h3, h4, h5,
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
-  z-index: 1999;
+  z-index: 1000;
   position: relative; }
   .site-navbar.transparent {
     background: transparent; }
